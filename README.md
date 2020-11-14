@@ -1,2 +1,2 @@
 # tour-plan
-Made by Stibunoff
+Made by Stibunoff Dmitry
