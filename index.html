@@ -10,13 +10,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="navbar navbar--mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="#" class="logo" data-aos="fade-up">
             <img
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -27,6 +28,7 @@
           <form
             action="#"
             class="search navbar__search navbar__search--mobile_hidden"
+            data-aos="fade-up"
           >
             <input
               type="text"
@@ -372,7 +374,11 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
             <img
               src="img/activity-1.jpg"
               alt="The curious corner of chamarel"
@@ -382,7 +388,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
             <img
               src="img/activity-2.jpg"
               alt="Gymkhana club golfcourse"
@@ -392,7 +402,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /card -->
-          <div class="card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-delay="500"
+          >
             <img
               src="img/activity-3.jpg"
               alt="Tamarind falls hiking trip - full day"
@@ -402,7 +416,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-delay="700"
+          >
             <img
               src="img/activity-4.jpg"
               alt="The blue marine discovery quest"
@@ -680,6 +698,7 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
